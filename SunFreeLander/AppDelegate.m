@@ -7,16 +7,21 @@
 //
 
 #import "AppDelegate.h"
+#import "MagicalRecord.h"
+#import "RWTestModel.h"
 
 @interface AppDelegate ()
 
 @end
 
-@implementation AppDelegate
+static NSString *const databaseName = @"RWDatabase";
 
+@implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    [MagicalRecord setupCoreDataStackWithStoreNamed:databaseName];
+    [RWTestModel startTest];
     return YES;
 }
 
