@@ -83,6 +83,12 @@
 		BAB8D4D91C8FFA900011F517 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BAB8D4D81C8FFA900011F517 /* libz.tbd */; };
 		BAB8D4DB1C8FFA9A0011F517 /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BAB8D4DA1C8FFA9A0011F517 /* libstdc++.6.0.9.tbd */; };
 		BAB8D4DD1C8FFAA30011F517 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAB8D4DC1C8FFAA30011F517 /* Security.framework */; };
+		BAB8D4EF1C900E7E0011F517 /* AMap.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BAB8D4EE1C900E7E0011F517 /* AMap.bundle */; };
+		BAB8D4FB1C9012E90011F517 /* MAMapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAB8D4FA1C9012E90011F517 /* MAMapKit.framework */; };
+		BAB8D4FD1C9013EC0011F517 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BAB8D4FC1C9013EC0011F517 /* libc++.tbd */; };
+		BAB8D4FF1C9014930011F517 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAB8D4FE1C9014930011F517 /* CoreTelephony.framework */; };
+		BAB8D5031C9014F80011F517 /* AMapLocationKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAB8D5001C9014F80011F517 /* AMapLocationKit.framework */; };
+		BAB8D5051C9014F80011F517 /* AMapSearchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAB8D5021C9014F80011F517 /* AMapSearchKit.framework */; };
 		BCD452AA1C8F07DD004036FF /* LJSportViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD452A91C8F07DD004036FF /* LJSportViewController.m */; };
 		BCD452AE1C8FA961004036FF /* LJSportTimerCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD452AC1C8FA961004036FF /* LJSportTimerCollectionViewCell.m */; };
 		BCD452AF1C8FA961004036FF /* LJSportTimerCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCD452AD1C8FA961004036FF /* LJSportTimerCollectionViewCell.xib */; };
@@ -190,6 +196,12 @@
 		BAB8D4D81C8FFA900011F517 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		BAB8D4DA1C8FFA9A0011F517 /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
 		BAB8D4DC1C8FFAA30011F517 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		BAB8D4EE1C900E7E0011F517 /* AMap.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AMap.bundle; sourceTree = "<group>"; };
+		BAB8D4FA1C9012E90011F517 /* MAMapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MAMapKit.framework; sourceTree = "<group>"; };
+		BAB8D4FC1C9013EC0011F517 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		BAB8D4FE1C9014930011F517 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		BAB8D5001C9014F80011F517 /* AMapLocationKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AMapLocationKit.framework; sourceTree = "<group>"; };
+		BAB8D5021C9014F80011F517 /* AMapSearchKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AMapSearchKit.framework; sourceTree = "<group>"; };
 		BCD452A81C8F07DD004036FF /* LJSportViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJSportViewController.h; sourceTree = "<group>"; };
 		BCD452A91C8F07DD004036FF /* LJSportViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJSportViewController.m; sourceTree = "<group>"; };
 		BCD452AB1C8FA961004036FF /* LJSportTimerCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJSportTimerCollectionViewCell.h; sourceTree = "<group>"; };
@@ -238,14 +250,22 @@
 			buildActionMask = 2147483647;
 			files = (
 <<<<<<< HEAD
+<<<<<<< HEAD
 				BCEB9E731C8FC657007559CD /* CoreData.framework in Frameworks */,
 =======
+=======
+				BAB8D4FF1C9014930011F517 /* CoreTelephony.framework in Frameworks */,
+				BAB8D4FD1C9013EC0011F517 /* libc++.tbd in Frameworks */,
+>>>>>>> RW-master
 				BAB8D4DD1C8FFAA30011F517 /* Security.framework in Frameworks */,
 				BAB8D4DB1C8FFA9A0011F517 /* libstdc++.6.0.9.tbd in Frameworks */,
 				BAB8D4D91C8FFA900011F517 /* libz.tbd in Frameworks */,
+				BAB8D5051C9014F80011F517 /* AMapSearchKit.framework in Frameworks */,
 				BAB8D4D71C8FFA870011F517 /* SystemConfiguration.framework in Frameworks */,
+				BAB8D5031C9014F80011F517 /* AMapLocationKit.framework in Frameworks */,
 				BAB8D4D51C8FFA7F0011F517 /* CoreLocation.framework in Frameworks */,
 				BAB8D4D31C8FFA770011F517 /* OpenGLES.framework in Frameworks */,
+				BAB8D4FB1C9012E90011F517 /* MAMapKit.framework in Frameworks */,
 				BAB8D4D11C8FFA6D0011F517 /* QuartzCore.framework in Frameworks */,
 				BAB8D4CF1C8FFA620011F517 /* CoreGraphics.framework in Frameworks */,
 				BAB8D4CD1C8FFA550011F517 /* Foundation.framework in Frameworks */,
@@ -262,18 +282,29 @@
 			isa = PBXGroup;
 			children = (
 <<<<<<< HEAD
+<<<<<<< HEAD
 				BCEB9E721C8FC657007559CD /* CoreData.framework */,
 =======
 				BAB8D4DC1C8FFAA30011F517 /* Security.framework */,
 				BAB8D4DA1C8FFA9A0011F517 /* libstdc++.6.0.9.tbd */,
+=======
+				BAB8D4FA1C9012E90011F517 /* MAMapKit.framework */,
+				BAB8D5001C9014F80011F517 /* AMapLocationKit.framework */,
+				BAB8D5021C9014F80011F517 /* AMapSearchKit.framework */,
+				BAB8D4EE1C900E7E0011F517 /* AMap.bundle */,
+>>>>>>> RW-master
 				BAB8D4D81C8FFA900011F517 /* libz.tbd */,
-				BAB8D4D61C8FFA870011F517 /* SystemConfiguration.framework */,
-				BAB8D4D41C8FFA7F0011F517 /* CoreLocation.framework */,
-				BAB8D4D21C8FFA770011F517 /* OpenGLES.framework */,
-				BAB8D4D01C8FFA6D0011F517 /* QuartzCore.framework */,
-				BAB8D4CE1C8FFA620011F517 /* CoreGraphics.framework */,
-				BAB8D4CC1C8FFA550011F517 /* Foundation.framework */,
+				BAB8D4DA1C8FFA9A0011F517 /* libstdc++.6.0.9.tbd */,
+				BAB8D4FC1C9013EC0011F517 /* libc++.tbd */,
 				BAB8D4CA1C8FFA4A0011F517 /* UIKit.framework */,
+				BAB8D4CC1C8FFA550011F517 /* Foundation.framework */,
+				BAB8D4CE1C8FFA620011F517 /* CoreGraphics.framework */,
+				BAB8D4D01C8FFA6D0011F517 /* QuartzCore.framework */,
+				BAB8D4D21C8FFA770011F517 /* OpenGLES.framework */,
+				BAB8D4D41C8FFA7F0011F517 /* CoreLocation.framework */,
+				BAB8D4D61C8FFA870011F517 /* SystemConfiguration.framework */,
+				BAB8D4FE1C9014930011F517 /* CoreTelephony.framework */,
+				BAB8D4DC1C8FFAA30011F517 /* Security.framework */,
 				BAB8D4C81C8FF9D20011F517 /* CoreData.framework */,
 >>>>>>> RW-master
 				BCD452A31C8F06D1004036FF /* ThirtPart */,
@@ -624,6 +655,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAB8D4EF1C900E7E0011F517 /* AMap.bundle in Resources */,
 				BA57D9641C8EF0AE001D9ED0 /* LaunchScreen.storyboard in Resources */,
 				BCD452AF1C8FA961004036FF /* LJSportTimerCollectionViewCell.xib in Resources */,
 				BA57D9611C8EF0AE001D9ED0 /* Assets.xcassets in Resources */,
@@ -805,6 +837,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = SunFreeLander/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -818,6 +854,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = SunFreeLander/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
