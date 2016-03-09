@@ -251,8 +251,13 @@
 			files = (
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 				BCEB9E731C8FC657007559CD /* CoreData.framework in Frameworks */,
 =======
+=======
+				BAB8D4FF1C9014930011F517 /* CoreTelephony.framework in Frameworks */,
+				BAB8D4FD1C9013EC0011F517 /* libc++.tbd in Frameworks */,
+>>>>>>> RW-master
 =======
 				BAB8D4FF1C9014930011F517 /* CoreTelephony.framework in Frameworks */,
 				BAB8D4FD1C9013EC0011F517 /* libc++.tbd in Frameworks */,
@@ -283,15 +288,21 @@
 			children = (
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 				BCEB9E721C8FC657007559CD /* CoreData.framework */,
 =======
 				BAB8D4DC1C8FFAA30011F517 /* Security.framework */,
 				BAB8D4DA1C8FFA9A0011F517 /* libstdc++.6.0.9.tbd */,
 =======
+=======
+>>>>>>> RW-master
 				BAB8D4FA1C9012E90011F517 /* MAMapKit.framework */,
 				BAB8D5001C9014F80011F517 /* AMapLocationKit.framework */,
 				BAB8D5021C9014F80011F517 /* AMapSearchKit.framework */,
 				BAB8D4EE1C900E7E0011F517 /* AMap.bundle */,
+<<<<<<< HEAD
+>>>>>>> RW-master
+=======
 >>>>>>> RW-master
 				BAB8D4D81C8FFA900011F517 /* libz.tbd */,
 				BAB8D4DA1C8FFA9A0011F517 /* libstdc++.6.0.9.tbd */,
