@@ -8,7 +8,7 @@
 
 #import "LJSportViewController.h"
 
-@interface LJSportViewController ()<UICollectionViewDelegate,UICollectionViewDataSource,UICollectionViewDelegateFlowLayout>
+@interface LJSportViewController ()
 
 @end
 
