@@ -53,6 +53,7 @@
 		BCD452AA1C8F07DD004036FF /* LJSportViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD452A91C8F07DD004036FF /* LJSportViewController.m */; settings = {ASSET_TAGS = (); }; };
 		BCD452AE1C8FA961004036FF /* LJSportTimerCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD452AC1C8FA961004036FF /* LJSportTimerCollectionViewCell.m */; settings = {ASSET_TAGS = (); }; };
 		BCD452AF1C8FA961004036FF /* LJSportTimerCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCD452AD1C8FA961004036FF /* LJSportTimerCollectionViewCell.xib */; settings = {ASSET_TAGS = (); }; };
+		BCEB9E731C8FC657007559CD /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCEB9E721C8FC657007559CD /* CoreData.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -149,6 +150,7 @@
 		BCD452AB1C8FA961004036FF /* LJSportTimerCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJSportTimerCollectionViewCell.h; sourceTree = "<group>"; };
 		BCD452AC1C8FA961004036FF /* LJSportTimerCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJSportTimerCollectionViewCell.m; sourceTree = "<group>"; };
 		BCD452AD1C8FA961004036FF /* LJSportTimerCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LJSportTimerCollectionViewCell.xib; sourceTree = "<group>"; };
+		BCEB9E721C8FC657007559CD /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +158,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCEB9E731C8FC657007559CD /* CoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,6 +168,7 @@
 		BA57D9481C8EF0AE001D9ED0 = {
 			isa = PBXGroup;
 			children = (
+				BCEB9E721C8FC657007559CD /* CoreData.framework */,
 				BCD452A31C8F06D1004036FF /* ThirtPart */,
 				BA57D98F1C8EF1DD001D9ED0 /* MagicalRecord */,
 				BCD452A71C8F0762004036FF /* Mine */,
