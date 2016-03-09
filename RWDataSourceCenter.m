@@ -8,6 +8,11 @@
 
 #import "RWDataSourceCenter.h"
 
+#define PATH [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES)objectAtIndex:0]
+
+#define DEPLOY_PLIST [PATH stringByAppendingPathComponent:@"deploy.plist"]
+
+
 
 @interface RWDataSourceCenter ()
 
@@ -105,6 +110,33 @@
     [self obtainDatabase];
     return [manager obtainDayWeightWithDate:date AndMonth:month];
 }
+
+- (BOOL)setDeployValue:(id)value forKey:(NSString *)key{
+    
+    BOOL isDerectory = NO;
+    NSFileManager *fileManager = [NSFileManager defaultManager];
+    
+    BOOL isFileExist = [fileManager fileExistsAtPath:DEPLOY_PLIST isDirectory:&isDerectory];
+    
+    if (!isFileExist) {
+        NSMutableDictionary *deploy = [[NSMutableDictionary alloc]init];
+        [deploy setValue:value forKey:key];
+        return [deploy writeToFile:DEPLOY_PLIST atomically:YES];
+    }else {
+        NSMutableDictionary *deploy = [NSMutableDictionary dictionaryWithContentsOfFile:DEPLOY_PLIST];
+        [deploy setValue:value forKey:key];
+        return [deploy writeToFile:DEPLOY_PLIST atomically:YES];
+    }
+    
+    return NO;
+}
+
+- (id)deployValueForKey:(NSString *)key {
+    
+    NSMutableDictionary *deploy = [NSMutableDictionary dictionaryWithContentsOfFile:DEPLOY_PLIST];
+    return [deploy valueForKey:key];
+}
+
 
 @end
 
