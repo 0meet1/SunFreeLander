@@ -9,7 +9,13 @@
 #import "LJSportViewController.h"
 
 @interface LJSportViewController ()<UICollectionViewDelegate,UICollectionViewDataSource,UICollectionViewDelegateFlowLayout>
+<<<<<<< HEAD
 
+=======
+{
+    UILabel *naviItemTitle;
+}
+>>>>>>> RW-master
 @end
 
 @implementation LJSportViewController
@@ -17,6 +23,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+<<<<<<< HEAD
     [self layoutNaviItem];
     
 }
@@ -31,6 +38,27 @@
     return 2;
 }
 
+=======
+    [self initAll];
+    [self layoutNaviItem];
+    
+}
+
+- (void)initAll {
+    naviItemTitle = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 100, 100)];
+}
+
+- (void)layoutNaviItem {
+    
+    
+}
+
+#pragma mark UICollectionViewDataSource,UICollectionViewDelegateFlowLayout,UICollectionViewDelegate
+- (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section {
+    return 2;
+}
+
+>>>>>>> RW-master
 
 
 - (void)didReceiveMemoryWarning {
