@@ -7,14 +7,33 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="LJSportTimerCollectionViewCell">
-            <rect key="frame" x="0.0" y="0.0" width="288" height="335"/>
+            <rect key="frame" x="0.0" y="0.0" width="336" height="487"/>
             <autoresizingMask key="autoresizingMask"/>
             <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                <rect key="frame" x="0.0" y="0.0" width="288" height="335"/>
+                <rect key="frame" x="0.0" y="0.0" width="336" height="487"/>
+                <subviews>
+                    <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="88" sectionHeaderHeight="1" sectionFooterHeight="1" translatesAutoresizingMaskIntoConstraints="NO" id="AFz-NT-ow9">
+                        <rect key="frame" x="0.0" y="0.0" width="336" height="487"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <connections>
+                            <outlet property="dataSource" destination="gTV-IL-0wX" id="URn-fZ-erC"/>
+                            <outlet property="delegate" destination="gTV-IL-0wX" id="TpJ-2h-CLW"/>
+                        </connections>
+                    </tableView>
+                </subviews>
                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
             </view>
-            <size key="customSize" width="288" height="335"/>
-            <point key="canvasLocation" x="287" y="372.5"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="AFz-NT-ow9" secondAttribute="bottom" id="1T3-fE-BkS"/>
+                <constraint firstItem="AFz-NT-ow9" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="AXK-Kj-h1I"/>
+                <constraint firstItem="AFz-NT-ow9" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="Aax-9q-u23"/>
+                <constraint firstAttribute="trailing" secondItem="AFz-NT-ow9" secondAttribute="trailing" id="lzY-0h-VOl"/>
+            </constraints>
+            <size key="customSize" width="336" height="487"/>
+            <connections>
+                <outlet property="LJSportTableView" destination="AFz-NT-ow9" id="Bph-e1-SIQ"/>
+            </connections>
+            <point key="canvasLocation" x="311" y="448.5"/>
         </collectionViewCell>
     </objects>
 </document>

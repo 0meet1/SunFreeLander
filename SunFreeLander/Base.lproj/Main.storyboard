@@ -75,6 +75,7 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="nYi-yT-71C">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     </navigationBar>
                     <connections>
                         <segue destination="th4-1s-n7D" kind="relationship" relationship="rootViewController" id="7ap-6a-lZ3"/>
@@ -105,10 +106,6 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells/>
-                                <connections>
-                                    <outlet property="dataSource" destination="th4-1s-n7D" id="fRN-aG-yqD"/>
-                                    <outlet property="delegate" destination="th4-1s-n7D" id="Job-Le-hMS"/>
-                                </connections>
                             </collectionView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
