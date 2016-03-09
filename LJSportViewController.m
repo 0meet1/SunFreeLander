@@ -8,7 +8,7 @@
 
 #import "LJSportViewController.h"
 
-@interface LJSportViewController ()
+@interface LJSportViewController ()<UICollectionViewDelegate,UICollectionViewDataSource,UICollectionViewDelegateFlowLayout>
 
 @end
 
@@ -27,6 +27,9 @@
 }
 
 #pragma mark UICollectionViewDataSource,UICollectionViewDelegateFlowLayout,UICollectionViewDelegate
+- (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section {
+    return 2;
+}
 
 
 
