@@ -11,6 +11,7 @@
 #import "Masonry.h"
 #import "MMDrawerController.h"
 
+<<<<<<< HEAD
 @interface LJSportViewController ()/*<UICollectionViewDelegate,UICollectionViewDataSource,UICollectionViewDelegateFlowLayout>*/
 {
     UILabel *naviItemTitleLb;
@@ -19,6 +20,16 @@
     NSArray *arrModel2;
    
 }
+=======
+@interface LJSportViewController ()<UICollectionViewDelegate,UICollectionViewDataSource,UICollectionViewDelegateFlowLayout>
+<<<<<<< HEAD
+
+=======
+{
+    UILabel *naviItemTitle;
+}
+>>>>>>> RW-master
+>>>>>>> master
 @end
 
 @implementation LJSportViewController
@@ -26,8 +37,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+<<<<<<< HEAD
     self.LJSportCollectionView.backgroundColor = [UIColor whiteColor];
     [self initAll];
+=======
+<<<<<<< HEAD
+>>>>>>> master
     [self layoutNaviItem];
     
 }
@@ -103,9 +118,34 @@
     return 2;
 }
 
+<<<<<<< HEAD
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
     return nil;
 }
+=======
+=======
+    [self initAll];
+    [self layoutNaviItem];
+    
+}
+
+- (void)initAll {
+    naviItemTitle = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 100, 100)];
+}
+
+- (void)layoutNaviItem {
+    
+    
+}
+
+#pragma mark UICollectionViewDataSource,UICollectionViewDelegateFlowLayout,UICollectionViewDelegate
+- (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section {
+    return 2;
+}
+
+>>>>>>> RW-master
+
+>>>>>>> master
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

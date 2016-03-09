@@ -77,6 +77,23 @@
  *  @return
  */
 - (NSArray <RWWeightEntityModel *>*)obtainWeightWithMonth:(RWWeightMonthModel *)mod;
+/**
+ *  将一条配置信息写入持久化  **必须为OC对象类型
+ *
+ *  @param value
+ *  @param key
+ *
+ *  @return
+ */
+- (BOOL)setDeployValue:(id)value forKey:(NSString *)key;
+/**
+ *  取出一条配置信息
+ *
+ *  @param key
+ *
+ *  @return 
+ */
+- (id)deployValueForKey:(NSString *)key;
 
 @end
 
