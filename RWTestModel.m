@@ -20,7 +20,7 @@
  */
 
 + (void)startTest{
-    RWTestModel *test = [[RWTestModel alloc]init];
+//    RWTestModel *test = [[RWTestModel alloc]init];
 //    [test heightPressureTest];
 //    [test log];
 }
@@ -33,8 +33,10 @@
     
     [source deleteAllDate];
     NSLog(@"%@",[source obtainWeightInformation]);
-    for (int i = 0 ; i < 200; i ++) {
-        [source insertWeight:[NSString stringWithFormat:@"%dKG",arc4random()%50+50]];
+    for (int i = 0 ; i < 1000; i ++) {
+        @autoreleasepool {
+           [source insertWeight:[NSString stringWithFormat:@"%dKG",arc4random()%50+50]];
+        }
     }
 }
 
