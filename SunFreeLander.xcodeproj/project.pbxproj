@@ -59,6 +59,9 @@
 		BCD452AE1C8FA961004036FF /* LJSportTimerCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD452AC1C8FA961004036FF /* LJSportTimerCollectionViewCell.m */; settings = {ASSET_TAGS = (); }; };
 		BCD452AF1C8FA961004036FF /* LJSportTimerCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCD452AD1C8FA961004036FF /* LJSportTimerCollectionViewCell.xib */; settings = {ASSET_TAGS = (); }; };
 		BCEB9E731C8FC657007559CD /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCEB9E721C8FC657007559CD /* CoreData.framework */; };
+<<<<<<< HEAD
+>>>>>>> JUN-master
+=======
 >>>>>>> JUN-master
 /* End PBXBuildFile section */
 
