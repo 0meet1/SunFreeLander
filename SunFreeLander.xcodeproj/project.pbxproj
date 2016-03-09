@@ -252,8 +252,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 				BCEB9E731C8FC657007559CD /* CoreData.framework in Frameworks */,
 =======
+=======
+				BAB8D4FF1C9014930011F517 /* CoreTelephony.framework in Frameworks */,
+				BAB8D4FD1C9013EC0011F517 /* libc++.tbd in Frameworks */,
+>>>>>>> RW-master
 =======
 				BAB8D4FF1C9014930011F517 /* CoreTelephony.framework in Frameworks */,
 				BAB8D4FD1C9013EC0011F517 /* libc++.tbd in Frameworks */,
@@ -289,6 +294,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 				BCEB9E721C8FC657007559CD /* CoreData.framework */,
 =======
 				BAB8D4DC1C8FFAA30011F517 /* Security.framework */,
@@ -296,11 +302,16 @@
 =======
 =======
 >>>>>>> RW-master
+=======
+>>>>>>> RW-master
 				BAB8D4FA1C9012E90011F517 /* MAMapKit.framework */,
 				BAB8D5001C9014F80011F517 /* AMapLocationKit.framework */,
 				BAB8D5021C9014F80011F517 /* AMapSearchKit.framework */,
 				BAB8D4EE1C900E7E0011F517 /* AMap.bundle */,
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> RW-master
+=======
 >>>>>>> RW-master
 =======
 >>>>>>> RW-master
