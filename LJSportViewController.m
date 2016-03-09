@@ -9,7 +9,9 @@
 #import "LJSportViewController.h"
 
 @interface LJSportViewController ()<UICollectionViewDelegate,UICollectionViewDataSource,UICollectionViewDelegateFlowLayout>
-
+{
+    UILabel *naviItemTitle;
+}
 @end
 
 @implementation LJSportViewController
@@ -17,12 +19,17 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    [self initAll];
     [self layoutNaviItem];
     
 }
 
-- (void)layoutNaviItem {
+- (void)initAll {
+    naviItemTitle = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 100, 100)];
+}
 
+- (void)layoutNaviItem {
+    
     
 }
 

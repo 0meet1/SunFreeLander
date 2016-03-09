@@ -8,10 +8,16 @@
 
 #import "LJSportTimerCollectionViewCell.h"
 
+@interface LJSportTimerCollectionViewCell()<UITableViewDataSource,UITableViewDelegate>
+@property (weak, nonatomic) IBOutlet UITableView *LJSportTableView;
+
+@end
+
 @implementation LJSportTimerCollectionViewCell
 
 - (void)awakeFromNib {
     // Initialization code
 }
+
 
 @end
