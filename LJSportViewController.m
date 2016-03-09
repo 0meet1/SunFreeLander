@@ -17,7 +17,18 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    [self layoutNaviItem];
+    
 }
+
+- (void)layoutNaviItem {
+
+    
+}
+
+#pragma mark UICollectionViewDataSource,UICollectionViewDelegateFlowLayout,UICollectionViewDelegate
+
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
