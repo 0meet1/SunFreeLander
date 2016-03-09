@@ -50,10 +50,19 @@
 		BA57D9E81C8EF1DD001D9ED0 /* MagicalRecord+Setup.m in Sources */ = {isa = PBXBuildFile; fileRef = BA57D9C61C8EF1DD001D9ED0 /* MagicalRecord+Setup.m */; };
 		BA57D9E91C8EF1DD001D9ED0 /* MagicalRecord+ShorthandMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = BA57D9C81C8EF1DD001D9ED0 /* MagicalRecord+ShorthandMethods.m */; };
 		BA57D9EA1C8EF1DD001D9ED0 /* MagicalRecordInternal.m in Sources */ = {isa = PBXBuildFile; fileRef = BA57D9CB1C8EF1DD001D9ED0 /* MagicalRecordInternal.m */; };
+<<<<<<< HEAD
+		BCD452AA1C8F07DD004036FF /* LJSportViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD452A91C8F07DD004036FF /* LJSportViewController.m */; };
+		BCD452AE1C8FA961004036FF /* LJSportTimerCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD452AC1C8FA961004036FF /* LJSportTimerCollectionViewCell.m */; };
+		BCD452AF1C8FA961004036FF /* LJSportTimerCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCD452AD1C8FA961004036FF /* LJSportTimerCollectionViewCell.xib */; };
+=======
 		BCD452AA1C8F07DD004036FF /* LJSportViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD452A91C8F07DD004036FF /* LJSportViewController.m */; settings = {ASSET_TAGS = (); }; };
 		BCD452AE1C8FA961004036FF /* LJSportTimerCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD452AC1C8FA961004036FF /* LJSportTimerCollectionViewCell.m */; settings = {ASSET_TAGS = (); }; };
 		BCD452AF1C8FA961004036FF /* LJSportTimerCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCD452AD1C8FA961004036FF /* LJSportTimerCollectionViewCell.xib */; settings = {ASSET_TAGS = (); }; };
 		BCEB9E731C8FC657007559CD /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCEB9E721C8FC657007559CD /* CoreData.framework */; };
+<<<<<<< HEAD
+>>>>>>> JUN-master
+=======
+>>>>>>> JUN-master
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -635,7 +644,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SunFreeLander/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "qdfuture0532-vip.qq.com.SunFreeLander";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -647,7 +656,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SunFreeLander/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "qdfuture0532-vip.qq.com.SunFreeLander";
 				PRODUCT_NAME = "$(TARGET_NAME)";
