@@ -8,7 +8,7 @@
 
 #import "LJSportViewController.h"
 
-@interface LJSportViewController ()
+@interface LJSportViewController ()<UICollectionViewDelegate,UICollectionViewDataSource,UICollectionViewDelegateFlowLayout>
 
 @end
 
@@ -17,7 +17,21 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    [self layoutNaviItem];
+    
 }
+
+- (void)layoutNaviItem {
+
+    
+}
+
+#pragma mark UICollectionViewDataSource,UICollectionViewDelegateFlowLayout,UICollectionViewDelegate
+- (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section {
+    return 2;
+}
+
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
