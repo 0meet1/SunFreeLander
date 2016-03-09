@@ -21,8 +21,8 @@
 
 + (void)startTest{
     RWTestModel *test = [[RWTestModel alloc]init];
-    [test heightPressureTest];
-    [test log];
+//    [test heightPressureTest];
+//    [test log];
 }
 //高压测试
 - (void)heightPressureTest {
